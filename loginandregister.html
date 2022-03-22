@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logister.css">
+    <title>Login/Register</title>
+
+<body>
+    <div id="log-reg-screen">
+        <div class="loginster">
+            <div id="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div id="picture">
+                <img src="img/manzaram.jpeg" alt="login/register-picture">
+            </div>
+            <div id="login" class="input-group">
+                <h1>Login</h1>
+                <hr class="special-hr">
+                <div class="content">
+                    <form action="">
+                        <input type="email" class="input-field" name="email" placeholder="Mail Address" requared>
+                        <input type="password" class="input-field" class="input-field" name="password"
+                            placeholder="Enter Password" requared>
+                        <input type="checkbox" class="checkbox" name="checkbox">
+                        <label for="checkbox">Remember Password</label>
+                        <button type="submit" class="submit-btn">Login</button>
+                    </form>
+                </div>
+            </div>
+            <div id="register" class="input-group">
+                <h1>Register</h1>
+                <hr class="special-hr">
+                <div class="content">
+                    <form action="">
+                        <input type="text" class="input-field" name="name and surname" placeholder="Name and Surname"
+                            requared>
+                        <input type="email" class="input-field" name="email" placeholder="Mail Address" requared>
+                        <input type="password" class="input-field" name="password" placeholder="Enter Password"
+                            requared>
+                        <input type="checkbox" class="check-box" name="checkbox" required>
+                        <label for="checkbox">I agree with the terms and conditions.</label>
+                        <button type="submit" class="submit-btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/loginandregister.js"></script>
+</body>
+
+</html>
