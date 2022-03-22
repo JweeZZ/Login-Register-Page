@@ -10,5 +10,6 @@ function login(){
  function register(){
     a.style.left = "-13%";
     b.style.left = "110px";
+    b.style.width = "110px";
     c.style.left = "470px";
 }
